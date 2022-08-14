@@ -1,5 +1,6 @@
 #!/bin/sh -eu
 
+## getting: starting container process caused: exec: "/kubeseal-webgui/bin/kubeseal-fetch.sh": permission denied: unknown please reupload this file with running permissions
 : "${KUBESEAL_BINARY:=/kubeseal-webgui/bin/kubeseal}"
 : "${KUBESEAL_CERT:=/kubeseal-webgui/cert/kubeseal-cert.pem}"
 : "${KUBESEAL_CONTROLLER_NAME:=sealed-secrets-controller}"
